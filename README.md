@@ -1,13 +1,5 @@
-from flask import Flask, render_template
+#kavarna
 
-app = Flask(__name__)
-
-@app.route("/")
-def home():
-    return render_template("index.html")
-
-@app.route("/contact")
-def contact():
-    return render_template("contact.html")
-
-app.run(debug=True)
+(R8)
+Web kavárny vytvořený ve Flasku. Aplikace představuje kavárnu, její nabídky kávy, čaje a
+sladkostí, otevírací dobu a kontaktní informace.
